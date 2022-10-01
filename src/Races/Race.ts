@@ -14,6 +14,10 @@ abstract class Race {
   get dexterity(): number {
     return this._dexterity;
   }
+
+  static createdRacesInstances(): number {
+    throw new Error('Not implemented.');
+  }
 }
 
 export default Race;
